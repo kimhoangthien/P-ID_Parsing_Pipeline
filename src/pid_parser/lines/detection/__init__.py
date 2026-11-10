@@ -1,0 +1,1 @@
+"""Lines detection research package."""

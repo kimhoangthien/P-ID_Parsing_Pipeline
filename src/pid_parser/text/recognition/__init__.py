@@ -1,0 +1,1 @@
+"""Text recognition research package."""

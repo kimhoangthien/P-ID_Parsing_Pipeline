@@ -1,0 +1,59 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+build/
+dist/
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+.ipynb_checkpoints/
+# Private local configuration
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.toml
+secrets/
+.aws/
+# Datasets / generated results: preserve tracked scaffolding only
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/**/README.md
+/outputs/**
+!/outputs/**/
+!/outputs/**/.gitkeep
+/experiments/**
+!/experiments/**/
+!/experiments/**/.gitkeep
+!/experiments/**/README.md
+# Model / MLflow artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+mlruns/
+mlartifacts/
+wandb/
+runs/
+# Small fixtures belong in tests/fixtures; no blanket image ignore.
+
+# Local validation bootstrap and cache
+.bootstrap/
+.uv-cache/
+pytest-cache-files-*/
